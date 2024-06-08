@@ -1,0 +1,20 @@
+.tree-view {
+  &__button {
+    margin-bottom: 10px;
+    background: transparent;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: border .3s;
+
+    &:hover {
+      border-color: gray;
+    }
+  }
+
+  &__content {
+    list-style-type: none;
+  }
+}
+

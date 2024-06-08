@@ -1,0 +1,29 @@
+.tree-node {
+  &__list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  &__item {
+    max-width: 500px;
+
+    .tree-node__title {
+      padding: 5px;
+      cursor: pointer;
+
+      &--expandable {
+        cursor: pointer;
+      }
+
+      .tree-node__arrow {
+        display: inline-block;
+        width: 1em;
+        transition: transform 0.3s;
+
+        &--expanded {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}

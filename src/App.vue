@@ -1,19 +1,7 @@
 <template>
-    <TreeView />
+    <router-view/>
 </template>
 
-<script setup>
-import TreeView from './components/TreeView.vue';
+<script lang="ts" setup>
 </script>
 
-<style>
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-#app {
-  padding: 30px;
-  color: #2c3e50;
-}
-</style>
